@@ -1,0 +1,5 @@
+/*
+We can solve this problem using BFS as well. The idea is going to be same. We use a visited matrix to keep track if the visited cells and apply 
+the standard queue based BFS algorithm to count islands. We increment the count whenever we see an unvisited vertex after the previous call. 
+The time complexity and auxiliary space are going to be same as DFS. However this implementation would be faster as we do not have recursion overhead.
+*/
